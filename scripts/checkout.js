@@ -91,7 +91,6 @@ cart.forEach((cartItem)=>{
   </div>`;
 })
 document.querySelector(".js-order-summry").innerHTML = cartSummryHTML;
-
 document.querySelectorAll(".js-delete-link").forEach((link)=>{
   link.addEventListener('click',()=>{
    const productId= link.dataset.productId
